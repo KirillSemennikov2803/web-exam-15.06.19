@@ -13,10 +13,33 @@
 }
 
 #topMenu {
-    background: #303030;
+    color: #d3d3d3;
+}
+
+div#topMenu {
+    background: #434545;
+    padding: 2px;
+}
+
+div#topMenu>* {
+    margin-top: 3.5px;
 }
 
 #trigramm {
     background: #d3d3d3;
-    font-size:
+    font-size: 30px;
+    color: #303030;
+    margin: 0;
 }
+
+#carouselExampleIndicators {
+    width: 100%;
+    height: 500px;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+;
