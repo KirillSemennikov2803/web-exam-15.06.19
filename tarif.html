@@ -49,7 +49,7 @@
                      <li>Бесполезный тариф</li>
                      <li>Зато бесплатный</li>
                   </ul>
-                  <button type="button" class="btn btn-lg btn-block btn-outline-primary">Попробуйте начальный пакет</button>
+                  <button type="button" class="btn btn-lg btn-block btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Попробуйте начальный пакет</button>
                </div>
             </div>
             <div class="card mb-4 shadow-sm">
@@ -64,7 +64,7 @@
                      <li>Мы  не будем игнорировать ваши письма(наверное)</li>
                      <li>Не бесплатно</li>
                   </ul>
-                  <button type="button" class="btn btn-lg btn-block btn-primary">Начните работу с нашим хостингом</button>
+                  <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#exampleModal">Начните работу с нашим хостингом</button>
                </div>
             </div>
             <div class="card mb-4 shadow-sm">
@@ -79,7 +79,7 @@
                      <li>Мы  не будем игнорировать ваши письма(точно)</li>
                      <li>Вы элита нашего хостинга</li>
                   </ul>
-                  <button type="button" class="btn btn-lg btn-block btn-primary">Станьте Элитой</button>
+                  <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#exampleModal">Станьте Элитой</button>
                </div>
             </div>
          </div>
@@ -179,11 +179,36 @@
             </label>
          </div>
          <div class="h1" id="price">Цена:</div>
-         <button type="button" class="btn btn-success">Заказать прямо сейчас</button>
+         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Заказать прямо сейчас</button>
       </div>
       
       </div>
       </div>
+      </div>
+      <!-- Button trigger modal -->
+
+
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"> Заказ оформлен успешно</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  Вы сделали заказ возможно вам повезет и наш сервер будет работать
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="restart()">Close</button>
+                  <button type="button" class="btn btn-primary "onclick="restart()">Тоже Close, но синий</button>
+               </div>
+            </div>
+         </div>
       </div>
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
          <div class="row">
