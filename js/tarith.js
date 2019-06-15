@@ -11,7 +11,9 @@ function price1() {
    var pricet=people*typeDisk*(diskSpace+support);
     console.log( );
     price.innerHTML = "Цена: "+pricet+"$";
-    setTimeout(price1,2000);
+    setTimeout(price1,1000);
     return  pricet;
 }
 price1();
+
+

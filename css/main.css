@@ -42,4 +42,11 @@ img {
     height: 500px;
 }
 
-;
+#tar {
+    margin-top: 20px;
+}
+.type{
+    border: yellow solid 10px;
+    height: 120px;
+    width: 120px;
+}
