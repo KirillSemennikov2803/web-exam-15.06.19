@@ -1,0 +1,52 @@
+#logoTop {
+    height: 70px;
+    width: 70px;
+}
+
+#search {
+    margin-top: 17px;
+}
+
+#login {
+    margin-top: 17px;
+    margin-bottom: 2px;
+}
+
+#topMenu {
+    color: #d3d3d3;
+}
+
+div#topMenu {
+    background: #434545;
+    padding: 2px;
+}
+
+div#topMenu>* {
+    margin-top: 3.5px;
+}
+
+#trigramm {
+    background: #d3d3d3;
+    font-size: 30px;
+    color: #303030;
+    margin: 0;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+    height: 500px;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+#tar {
+    margin-top: 20px;
+}
+.type{
+    border: yellow solid 10px;
+    height: 120px;
+    width: 120px;
+}
